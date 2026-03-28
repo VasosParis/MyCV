@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Το Βιογραφικό μου</title>
+    <link rel="icon" type="image/x-icon" href="CVicon-clean.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #333;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .section-title {
+            border-bottom: 4px solid #2563eb;
+            padding-bottom: 5px;
+            margin-bottom: 25px;
+            margin-top: 40px;
+            color: #1e3a8a;
+            font-weight: bold;
+            /*display: inline-block;*/
+        }
+
+        .card {
+            border: none;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+        }
+
+        .skill-badge {
+            background-color: #f1f5f9;
+            color: #1e40af;
+            border: 1px solid #cbd5e1;
+            margin: 3px;
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .tech-category {
+            font-weight: bold;
+            color: #475569;
+            margin-top: 15px;
+            display: block;
+            border-bottom: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <header class="hero-section text-center shadow">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Βάσος Πάρις Ελευσινιώτης</h1>
+            <p class="lead fs-4">Μηχανικός Πληροφοριακών & Επικοινωνιακών Συστημάτων | University of the Aegean</p>
+            <div class="mt-3">
+                <span class="badge bg-primary p-2 m-1"><i class="fas fa-flag-usa"></i> Born in New Jersey, USA</span>
+                <span class="badge bg-warning text-dark p-2 m-1"><i class="fas fa-plane"></i> 20 Countries
+                    Visited</span>
+                <span class="badge bg-dark p-2 m-1"><i class="fas fa-shield-alt"></i> Cyber Security Enthusiast</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary"><i class="fas fa-code"></i> Τεχνικές Δεξιότητες</h4>
+
+                        <span class="tech-category">Γλώσσες Προγραμματισμού</span>
+                        <div class="mt-2">
+                            <span class="skill-badge">C</span> <span class="skill-badge">C++</span>
+                            <span class="skill-badge">Java</span> <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Assembly</span> <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">HTML5/CSS3</span>
+                        </div>
+
+                        <span class="tech-category">Software & Tools</span>
+                        <div class="mt-2">
+                            <span class="skill-badge">MySQL</span> <span class="skill-badge">Xampp</span>
+                            <span class="skill-badge">Cisco Packet Tracer</span> <span
+                                class="skill-badge">LTspice</span>
+                            <span class="skill-badge">Antlr</span> <span class="skill-badge">JetBrains IDEs</span>
+                        </div>
+
+                        <span class="tech-category">Design & Engineering</span>
+                        <div class="mt-2">
+                            <span class="skill-badge">SketchUp</span> <span class="skill-badge">Blender</span>
+                            <span class="skill-badge">KiCAD</span> <span class="skill-badge">TinkerCad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <h5 class="text-primary">Cyber Security Challenge</h5>
+                        <p class="small">Συμμετοχή στα CTFs των ετών:</p>
+                        <span class="badge bg-dark">2025</span> <span class="badge bg-dark">2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+
+                <h3 class="section-title">Εκπαίδευση</h3>
+                <div class="card shadow-sm mb-4 border-start border-primary border-4">
+                    <div class="card-body">
+                        <h5 class="fw-bold"><i class="fa-solid fa-school text-primary"></i> Τμήμα Μηχανικών
+                            Πληροφοριακών και
+                            Επικοινωνιακών Συστημάτων
+                            <img src="ICSD-logo.png" alt="Λογότυπο Πανεπιστημίου Αιγαίου" class="img-fluid"
+                                style="max-height: 80px;">
+                        </h5>
+                        <p class="text-muted mb-1">Πανεπιστήμιο Αιγαίου | Σάμος | 2023 - Σήμερα</p>
+                        <p class="small text-secondary">Εστίαση σε Ασφάλεια, Δίκτυα και Σχεδίαση Συστημάτων.</p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4 border-start border-primary border-4">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+                                <img src="ICSD-logo.png" alt="Λογότυπο Πανεπιστημίου Αιγαίου" class="img-fluid"
+                                    style="max-height: 80px;">
+                            </div>
+
+                            <div class="col-md-9 col-lg-10">
+                                <h5 class="fw-bold text-dark"><i class="fa-solid fa-school text-primary"></i> Τμήμα
+                                    Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων</h5>
+                                <p class="text-muted mb-1">Πανεπιστήμιο Αιγαίου | Σάμος | 2023 - Σήμερα</p>
+                                <p class="small text-secondary mb-0">Εστίαση σε Ασφάλεια Πληροφοριακών Συστημάτων,
+                                    Δίκτυα και Επικοινωνίες.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="section-title">Εθελοντισμός & Κοινότητες</h3>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-dark"><i class="fas fa-users text-primary"></i> Ενεργό Μέλος Φοιτητικών
+                            Ομάδων</h5>
+                        <p class="mb-2">Συμμετοχή και υποστήριξη δράσεων στις παρακάτω ομάδες του Πανεπιστημίου Αιγαίου:
+                        </p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-info text-dark m-1">Fossaegean (ΕΛΛΑΚ)</span>
+                            <span class="badge bg-info text-dark m-1">IEEE Student Branch</span>
+                            <span class="badge bg-info text-dark m-1">Ομάδα Αστρονομίας</span>
+                        </div>
+                        <p class="small text-muted mt-2">Εστίαση στην προώθηση του ανοιχτού λογισμικού, των τεχνολογικών
+                            εξελίξεων και της επιστήμης στην ακαδημαϊκή κοινότητα.</p>
+                    </div>
+                </div>
+
+                <h3 class="section-title">Projects</h3>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h5 class="fw-bold"><i class="fas fa-gamepad text-primary"></i> Arcade Cabinet Build (Hardware &
+                            Software)
+                        </h5>
+                        <p>
+                            Πλήρης κατασκευή Arcade Cabinet. 3D σχεδιασμός (SketchUp), Ακριβή σχέδια και μέτρα σε χαρτί,
+                            χειρονακτική κατασκευή και παραμετροποίηση <strong>Batocera Linux</strong> σε desktop.
+                            <img src="Arcade.png" alt="Arcade Cabinet Design" class="img-fluid rounded shadow"
+                                style="max-width: 20%; height: auto; border: 1px solid #eee;">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4 border-start border-primary border-4">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary mb-3"><i class="fas fa-gamepad"></i> Custom Arcade Cabinet Build
+                        </h5>
+                        <p>Πλήρης κατασκευή Arcade Cabinet. 3D σχεδιασμός (SketchUp), Ακριβή σχέδια και μέτρα σε χαρτί,
+                            χειρονακτική κατασκευή και παραμετροποίηση <strong>Batocera Linux</strong> σε desktop.
+                        </p>
+
+                        <div class="row g-3 align-items-center">
+
+                            <div
+                                class="col-md-6 col-lg-7 text-center d-flex flex-column align-items-center justify-content: center;">
+
+                                <img src="Arcade.png" alt="Arcade Cabinet Design" class="img-fluid rounded shadow"
+                                    style="max-width: 65%; height: auto; border: 1px solid #eee;">
+
+                                <p class="small text-muted text-center mt-2 mb-0"><i class="fas fa-image"></i> Τελικό
+                                    Σχέδιο με Χρώματα (SketchUp)</p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-5">
+                                <div class="bg-dark p-2 rounded text-center shadow"
+                                    style="border: 2px solid #333; height: 400px;">
+                                    <model-viewer src="Arcade.glb" alt="3D Interactive Arcade Model" auto-rotate
+                                        camera-controls shadow-intensity="1" loading="eager"
+                                        style="width: 100%; height: 100%; outline: none; --poster-color: transparent;">
+
+                                        <div slot="poster" class="text-white small p-4">
+                                            <i class="fas fa-spinner fa-spin"></i> Φόρτωση 3D...
+                                        </div>
+                                    </model-viewer>
+                                </div>
+                                <p class="small text-center mt-2 mb-0 text-primary fw-bold"><i class="fas fa-mouse"></i>
+                                    Περιστρέψτε το 3D Μοντέλο</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mt-4 text-secondary small">
+                        <p class="mb-1"><strong>Σημείωση:</strong> Η φωτογραφία αριστερά δείχνει το τελικό σχέδιο με
+                            τα χρώματα, ενώ 3D viewer στα δεξιά επιτρέπει την τη επίβλεψη της κατασκευής
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h5 class="fw-bold"><i class="fas fa-leaf text-success"></i> Agrivision (Computer Vision -
+                            Machine Learning)
+                        </h5>
+                        <p>
+                            Επιπλέον, έχω συμμετάσχει σε διαγωνισμό του Junior Achievement με θέμα την Αγροκουλτούρα
+                            όπου καναμε με χρήση <strong>Computer Vision</strong> και <strong>Machine Learning</strong>
+                            μια
+                            πειραματική εφαρμογή (Agrivision) που μπορεί
+                            να αναγνωρίζει βλέποντας φύλα, σε ποιό φυτό ανοίκει, τι ασθένεια έχει και πληροφορίες για
+                            αυτή.
+                            Αυτό πραγματοποιήθηκε για το μάθημα της Ψηφιακής Καινοτομιας και Επιχειρηματικότητας.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h5 class="fw-bold"><i class="fa-brands fa-java"></i> Java Card Game</h5>
+                        <p>
+                            Επιπλέον, είχα κατασκευάσει για την ομαδική εργασία στο μάθημα του Αντικειμενοστραφή
+                            Προγραμματισμού ΙΙ (Java), ένα πρόγραμμα με την χρήση Java και JavaFX (συγκεκριμένα με την
+                            χρήση FXML).
+                            Το συγκεκριμένο πρόγραμμα ήταν το κλασσικό παιχνίδι μνήμης με κάρτες όπου πρέπει να πετύχεις
+                            τα ζευγάρια.
+                            Αλλά είχε αρκετές δυναμικές λειτουργίες και features, όπως εικόνες για εμπρός και πίσω στις
+                            κάρτες,
+                            Γύρισμα από τον παίχτη και σε περίπτωση μη επιτυχίας εύρεσης ζευγαριού, αυτόματο γύρισμα
+                            στην αρχική θέση,
+                            Κατάλληλο μήνυμα στο τέλος του παιχνιδιού με τον τελικό χρόνο, Scoreboard κ.α.
+                        </p>
+                    </div>
+                </div>
+
+                <h3 class="section-title">Ευρωπαϊκή & Διεθνής Εμπειρία</h3>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h6 class="fw-bold">Group Leader & Youth Exchanges</h6>
+                        <p class="small mb-0">Έχω συμμετάσχει σε τρία Youth Exchanges, στα 2 από αυτά ως Group Leader
+                            όπου αυτοί
+                            οι ρόλοι βοήθησαν στο να μάθω καλύτερα και στην πράξη πώς να συντονίζω ομάδες.
+                            Το πρώτο (Πολωνία) μάλιστα επικεντρώθηκε στη βιωσιμότητα (Sustainability και Zero Waste), το
+                            δεύτερο
+                            (Λιθουανία) στην κοινωνική επιχειρηματικότητα και το τρίτο (Ρουμανία) στην ψυχική και
+                            σωματική υγεία
+                            των νέων, και στην σημαντικότητα της δραστηριότητας και της κοινωνικής συμπερίληψης.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h6 class="fw-bold">DiscoverEU Erasmus+</h6>
+                        <p class="small mb-0">Ταξίδι 35 ημερών σε 16 χώρες και συμμετοχή σε 7 διαφορετικά meetups με
+                            κύρια μετακίνηση το τρένο, με απίστευτες
+                            εμπειρίες,
+                            σχέσεις και γνωριμίες, αφού γνώρισα και μοιράστηκα εμπειρίες και στιγμές και συμβίωσα με
+                            εκατοντάδες
+                            άτομα από όλη την ευρώπη.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h6 class="fw-bold">URBACT</h6>
+                        <p class="small mb-0">Συμμετοχή στο ευρωπαϊκό πρόγραμμα URBACT και συγκεκριμένα στο "One Health
+                            for Cities" μέσω του Δήμου
+                            Ελευσίνας όπου χρησιμοποίησα μεθόδους μη τυπικής μάθησης κατά την επίσκεψή μου σε δημοτικά
+                            σχολεία,
+                            με σκοπό να ευαισθητοποιήσω τα παιδιά γύρω από το περιβάλλον, τις πράσινες πόλεις και την
+                            σωστή
+                            συμβίωση όλων μέσα σε ένα οικοσύστημα.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">© 2026 | Δημιουργήθηκε για το μάθημα "Προγραμματισμός στο Διαδίκτυο"</p>
+    </footer>
+
+</body>
+
+</html>
