@@ -187,7 +187,7 @@
                                 <div class="bg-dark mb-4 rounded shadow-sm d-flex flex-column align-items-center justify-content-center"
                                     style="height: 290px; width: 85%; border: 2px solid #333;">
 
-                                    <model-viewer src="ArcadeShowRoom.glb" alt="3D Interactive Arcade Model" auto-rotate
+                                    <model-viewer src="Arcade.glb" alt="3D Interactive Arcade Model" auto-rotate
                                         camera-controls shadow-intensity="1" loading="eager"
                                         style="width: 100%; height: 85%; outline: none; --poster-color: transparent;">
 
@@ -303,12 +303,51 @@
         </div>
     </div>
 
-    <footer class="bg-dark text-white text-center py-4 mt-5">
-        <p class="mb-0">© 2026 | Δημιουργήθηκε για το μάθημα "Προγραμματισμός στο Διαδίκτυο"</p>
+    <div class="row mt-5 mb-0 border-top pt-3 pb-0 text-center">
+        <div class="col">
+            <h6 class="text-muted mb-2 fw-bold small text-uppercase" style="letter-spacing: 1px;">Στοιχεία Επικοινωνίας
+            </h6>
+
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 small text-muted">
+
+                <a href="vasosparisElefsiniotis@example.com" class="text-decoration-none text-reset contact-link">
+                    <i class="fas fa-envelope text-primary me-1"></i> vasosparisElefsiniotis@example.com
+                </a>
+
+                <a href="https://www.linkedin.com/in/vasos-elefsiniotis-423a112a8/" target="_blank"
+                    class="text-decoration-none text-reset contact-link">
+                    <i class="fab fa-linkedin text-primary me-1"></i> LinkedIn
+                </a>
+
+                <a href="https://github.com/VasosParis" target="_blank"
+                    class="text-decoration-none text-reset contact-link">
+                    <i class="fab fa-github text-primary me-1"></i> GitHub
+                </a>
+
+                <span class="text-reset small ms-1">
+                    <i class="fas fa-phone-alt text-primary me-1"></i> +30 69X XXX XXXX
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-3">
         <a href="https://github.com/VasosParis/MyCV/blob/main/index.html" target="_blank" class="text-decoration-none">
-            <i class="fab fa-github"></i> Δείτε τον Κώδικα στο GitHub
+            <i class="fas fa-code text-primary me-1 mb-2"></i> View Source
         </a>
+        <p class="mb-0">© 2026 | Δημιουργήθηκε για το μάθημα "Προγραμματισμός στο Διαδίκτυο"</p>
     </footer>
+
+    <style>
+        .contact-link {
+            transition: color 0.2s ease;
+        }
+
+        .contact-link:hover {
+            color: #0d6efd !important;
+            /* Το μπλε της Bootstrap */
+        }
+    </style>
 
 </body>
 
